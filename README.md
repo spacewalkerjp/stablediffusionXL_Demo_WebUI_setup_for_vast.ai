@@ -51,7 +51,7 @@ git clone https://github.com/FurkanGozukara/stable-diffusion-xl-demo
 cd stable-diffusion-xl-demo
 
 python3 -m venv venv
-source venv/Scripts/activate
+source venv/bin/activate
 python3 -m pip install --upgrade pip
 
 pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
