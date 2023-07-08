@@ -64,7 +64,7 @@ pip install -r requirements2.txt
 
 7. change access token for `app2.py`
 
-* apply the eary access for SDXL model of StabilityAI
+* apply the early access for SDXL model of StabilityAI
    * https://huggingface.co/stabilityai/stable-diffusion-xl-base-0.9
 * get the access token from `https://huggingface.co/settings/tokens`
 * edit the `access_token` of app2.py
@@ -75,7 +75,7 @@ pip install -r requirements2.txt
 PYTORCH_CUDA_ALLOC_CONF=max_split_size_mb:128
 ENABLE_REFINER=false
 
-# high memory GPU & enable REFINE
+# high memory GPU & enable REFINER
 # PYTORCH_CUDA_ALLOC_CONF=max_split_size_mb:256
 # ENABLE_REFINER=true
 
