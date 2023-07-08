@@ -72,10 +72,10 @@ pip install -r requirements2.txt
 8. start webUI
 
 ```sh
-PYTORCH_CUDA_ALLOC_CONF=max_split_size_mb:128
-ENABLE_REFINER=false
+PYTORCH_CUDA_ALLOC_CONF=max_split_size_mb:256
+ENABLE_REFINER=true
 
-python stable-diffusion-xl-demo\app2.py
+python app2.py
 ```
 
 
